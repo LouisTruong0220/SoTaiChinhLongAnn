@@ -42,13 +42,13 @@ Chưa có adb, hoặc dùng MacBook → mở file PDF hướng dẫn ở trên, 
 | **Chế độ du hành** | Robot đi vòng quanh 5 điểm, vừa đi vừa chào mừng đại biểu |
 | **Chế độ giới thiệu** | Dẫn đoàn tới từng điểm và thuyết minh. Xong mỗi điểm chờ bấm **Tiếp tục** |
 
-## Trước khi chạy: đặt 8 điểm trên bản đồ
+## Trước khi chạy: đặt 9 điểm trên bản đồ
 
-Hai chế độ di chuyển chỉ chạy khi robot đã quét bản đồ và có đủ 8 điểm, **tên trùng từng ký tự**:
+Hai chế độ di chuyển chỉ chạy khi robot đã quét bản đồ và có đủ 9 điểm, **tên trùng từng ký tự**:
 
 ```
 Diem 1   Diem 2   Diem 3   Diem 4   Diem 5      ← chế độ du hành
-Gioi thieu 1   Gioi thieu 2   Gioi thieu 3      ← chế độ giới thiệu
+Gioi thieu 1   Gioi thieu 2   Gioi thieu 3   Gioi thieu 4   ← chế độ giới thiệu
 ```
 
 Không dấu tiếng Việt, đúng hoa/thường, đúng một dấu cách. Sai một ký tự là robot đứng im.
