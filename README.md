@@ -5,7 +5,7 @@ chiều **28/08/2026**.
 
 | | |
 |---|---|
-| **File cài** | [`su-kien-xtdt-tay-ninh-v1.0.apk`](su-kien-xtdt-tay-ninh-v1.0.apk) — 8,41 MB |
+| **File cài** | [`su-kien-xtdt-tay-ninh-v1.0.apk`](su-kien-xtdt-tay-ninh-v1.0.apk) — 8,31 MB |
 | **Cài từ máy Windows** | [`Huong-dan-cai-APK-tu-Windows.pdf`](Huong-dan-cai-APK-tu-Windows.pdf) — 7 trang, có cả phần xử lý sự cố |
 | **Cài từ MacBook** | [`Huong-dan-cai-APK-tu-MacBook.pdf`](Huong-dan-cai-APK-tu-MacBook.pdf) — 7 trang, có cả phần xử lý sự cố |
 | **Đặt 9 điểm trên bản đồ** | [`Huong-dan-dat-diem-tren-ban-do.pdf`](Huong-dan-dat-diem-tren-ban-do.pdf) — 9 trang, có sơ đồ hướng robot đứng và bảng kiểm cuối cùng |
@@ -43,7 +43,7 @@ Chưa có adb → mở PDF hướng dẫn cài đặt hợp với máy của mì
 | | Robot làm gì |
 |---|---|
 | **Xem thông tin sự kiện** | 13 mục bấm xem — chương trình, khu triển lãm, hướng dẫn đại biểu. Robot đọc thành tiếng |
-| **Trò chuyện cùng tôi** | Hỏi bằng lời hoặc gõ chữ. Đây là nơi **duy nhất** micro bật |
+| **Trò chuyện cùng tôi** | Hỏi bằng lời hoặc gõ chữ. Đây là nơi **duy nhất** micro bật — và micro là **bấm mới nghe**: chạm nút 🎙️ rồi nói, dứt câu một giây là nó tự tắt |
 | **Chế độ du hành** | Robot đi vòng quanh 5 điểm, vừa đi vừa chào mừng đại biểu |
 | **Chế độ giới thiệu** | Dẫn đoàn tới từng điểm và thuyết minh. Xong mỗi điểm chờ bấm **Tiếp tục** |
 
@@ -62,6 +62,16 @@ Không dấu tiếng Việt, đúng hoa/thường, đúng một dấu cách. Sai
 
 **Tự kiểm:** ở màn hình chính của app, **bấm giữ nút 🏠 góc phải 1,2 giây** — bảng kiểm hiện
 ra, hỏi thẳng robot và đánh dấu ✔/✘ từng điểm. Đừng nhìn bằng mắt trên màn quét bản đồ.
+
+## Micro: BẤM MỚI NGHE
+
+Trong màn **Trò chuyện cùng tôi**, micro **không tự mở**. Đại biểu chạm nút 🎙️ rồi nói;
+nói xong dừng khoảng **một giây** là micro tự tắt. Muốn nói tiếp thì bấm lại.
+
+Làm vậy để robot đứng giữa khu triển lãm thôi hứng tiếng MC từ dàn loa hội trường, và
+thôi tính chuyện riêng của hai người đứng cạnh thành câu hỏi.
+
+Bấm nút rồi không nói gì thì sau **mười lăm giây** micro cũng tự tắt.
 
 ## Hai thứ hay quên
 
