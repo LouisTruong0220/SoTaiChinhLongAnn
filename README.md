@@ -5,8 +5,10 @@ chiều **28/08/2026**.
 
 | | |
 |---|---|
-| **File cài** | [`su-kien-xtdt-tay-ninh-v1.0.apk`](su-kien-xtdt-tay-ninh-v1.0.apk) — 5,65 MB |
-| **Hướng dẫn cài từ MacBook** | [`Huong-dan-cai-APK-tu-MacBook.pdf`](Huong-dan-cai-APK-tu-MacBook.pdf) — 6 trang, có cả phần xử lý sự cố |
+| **File cài** | [`su-kien-xtdt-tay-ninh-v1.0.apk`](su-kien-xtdt-tay-ninh-v1.0.apk) — 8,41 MB |
+| **Cài từ máy Windows** | [`Huong-dan-cai-APK-tu-Windows.pdf`](Huong-dan-cai-APK-tu-Windows.pdf) — 7 trang, có cả phần xử lý sự cố |
+| **Cài từ MacBook** | [`Huong-dan-cai-APK-tu-MacBook.pdf`](Huong-dan-cai-APK-tu-MacBook.pdf) — 7 trang, có cả phần xử lý sự cố |
+| **Đặt 9 điểm trên bản đồ** | [`Huong-dan-dat-diem-tren-ban-do.pdf`](Huong-dan-dat-diem-tren-ban-do.pdf) — 9 trang, có sơ đồ hướng robot đứng và bảng kiểm cuối cùng |
 | Đơn vị cung cấp | Công ty Cổ phần Tập đoàn Roboworld — hotline **0866 153 946** |
 
 ---
@@ -31,7 +33,10 @@ adb install -r su-kien-xtdt-tay-ninh-v1.0.apk  # đợi chữ "Success"
 > cho app: mất cả dẫn đường lẫn giọng nói, mà **app không báo lỗi gì cả** — nhìn vẫn thấy
 > giao diện bình thường.
 
-Chưa có adb, hoặc dùng MacBook → mở file PDF hướng dẫn ở trên, làm từ đầu.
+Chưa có adb → mở PDF hướng dẫn cài đặt hợp với máy của mình (Windows hay MacBook), làm từ đầu.
+
+> ⚠ Trên Windows, đừng gõ `adb` trần: máy nào từng cài phần mềm PUDU thì `C:\Windows\adb.exe`
+> là bản cũ 1.0.39 và hai bản adb sẽ giết tiến trình của nhau. Xem mục A3 của PDF Windows.
 
 ## Bốn chức năng của app
 
@@ -52,6 +57,8 @@ Gioi thieu 1   Gioi thieu 2   Gioi thieu 3   Gioi thieu 4   ← chế độ gi�
 ```
 
 Không dấu tiếng Việt, đúng hoa/thường, đúng một dấu cách. Sai một ký tự là robot đứng im.
+
+**Cách đặt, đặt ở đâu, quay mặt hướng nào** → xem [`Huong-dan-dat-diem-tren-ban-do.pdf`](Huong-dan-dat-diem-tren-ban-do.pdf).
 
 **Tự kiểm:** ở màn hình chính của app, **bấm giữ nút 🏠 góc phải 1,2 giây** — bảng kiểm hiện
 ra, hỏi thẳng robot và đánh dấu ✔/✘ từng điểm. Đừng nhìn bằng mắt trên màn quét bản đồ.
