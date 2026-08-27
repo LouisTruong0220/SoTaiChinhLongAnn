@@ -5,10 +5,10 @@ chiều **28/08/2026**.
 
 | | |
 |---|---|
-| **File cài** | [`su-kien-xtdt-tay-ninh-v1.0.apk`](su-kien-xtdt-tay-ninh-v1.0.apk) — 8,31 MB |
+| **File cài** | [`su-kien-xtdt-tay-ninh-v1.0.apk`](su-kien-xtdt-tay-ninh-v1.0.apk) — 16,25 MB |
 | **Cài từ máy Windows** | [`Huong-dan-cai-APK-tu-Windows.pdf`](Huong-dan-cai-APK-tu-Windows.pdf) — 7 trang, có cả phần xử lý sự cố |
 | **Cài từ MacBook** | [`Huong-dan-cai-APK-tu-MacBook.pdf`](Huong-dan-cai-APK-tu-MacBook.pdf) — 7 trang, có cả phần xử lý sự cố |
-| **Đặt 9 điểm trên bản đồ** | [`Huong-dan-dat-diem-tren-ban-do.pdf`](Huong-dan-dat-diem-tren-ban-do.pdf) — 9 trang, có sơ đồ hướng robot đứng và bảng kiểm cuối cùng |
+| **Đặt điểm trên bản đồ** | [`Huong-dan-dat-diem-tren-ban-do.pdf`](Huong-dan-dat-diem-tren-ban-do.pdf) — 9 trang, có sơ đồ hướng robot đứng và bảng kiểm cuối cùng. ⚠ **PDF này in khi kịch bản còn 4 điểm giới thiệu nên ghi 9 điểm** — nay là **10 điểm**, thêm `Gioi thieu 5`. Cách đặt vẫn đúng nguyên |
 | Đơn vị cung cấp | Công ty Cổ phần Tập đoàn Roboworld — hotline **0866 153 946** |
 
 ---
@@ -45,15 +45,15 @@ Chưa có adb → mở PDF hướng dẫn cài đặt hợp với máy của mì
 | **Xem thông tin sự kiện** | 13 mục bấm xem — chương trình, khu triển lãm, hướng dẫn đại biểu. Robot đọc thành tiếng |
 | **Trò chuyện cùng tôi** | Hỏi bằng lời hoặc gõ chữ. Đây là nơi **duy nhất** micro bật — và micro là **bấm mới nghe**: chạm nút 🎙️ rồi nói, dứt câu một giây là nó tự tắt |
 | **Chế độ du hành** | Robot đi vòng quanh 5 điểm, vừa đi vừa chào mừng đại biểu |
-| **Chế độ giới thiệu** | Dẫn đoàn tới từng điểm và thuyết minh. Xong mỗi điểm chờ bấm **Tiếp tục** |
+| **Chế độ giới thiệu** | Dẫn đoàn tới **5 điểm** và thuyết minh, màn hình chiếu ảnh minh hoạ. Xong mỗi điểm chờ bấm **Tiếp tục** |
 
-## Trước khi chạy: đặt 9 điểm trên bản đồ
+## Trước khi chạy: đặt 10 điểm trên bản đồ
 
-Hai chế độ di chuyển chỉ chạy khi robot đã quét bản đồ và có đủ 9 điểm, **tên trùng từng ký tự**:
+Hai chế độ di chuyển chỉ chạy khi robot đã quét bản đồ và có đủ 10 điểm, **tên trùng từng ký tự**:
 
 ```
 Diem 1   Diem 2   Diem 3   Diem 4   Diem 5      ← chế độ du hành
-Gioi thieu 1   Gioi thieu 2   Gioi thieu 3   Gioi thieu 4   ← chế độ giới thiệu
+Gioi thieu 1   Gioi thieu 2   Gioi thieu 3   Gioi thieu 4   Gioi thieu 5   ← chế độ giới thiệu
 ```
 
 Không dấu tiếng Việt, đúng hoa/thường, đúng một dấu cách. Sai một ký tự là robot đứng im.
